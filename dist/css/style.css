@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+/*google fonts*/
+/*strict*/
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+	border:none;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul,ol,li,img{
+	margin: 0px;
+	border: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*common css*/
+.menu-bar{
+	background: #f6f9f9;
+
+}
+.menu-bar img{
+	padding: 31px 0px 31px;
+}
+.menu-bar .nav-item{
+	margin-left: 31px;
+}
+.menu-bar .nav-item .nav-link{
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	font-weight: 400px;
+	color: #444d60;
+}
+.menu-bar .nav-item.active .nav-link{
+	color: #444d60;
+}
+/*header part end*/
+.banner-part{
+	background: url(../image/STRICT.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding-top:218px; 
+}
+.banner-part .banner-btn{
+	margin-top: 64px;
+}
+.banner-part .banner-btn a{
+	padding: 20px 34px;
+	color: #ffffff;
+	border-radius: 2px;
+	border:1px solid #15a4fa;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+.banner-part .banner-con p{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	padding-top: 30px;
+}
+.banner-part .banner-con h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 120px;
+}
+.banner-part .arrow{
+	color: #ffffff;
+	padding: 182px 0px 90px;
+}
+/*banner part end*/
+.design-part{
+	background: #f6f9f9;
+}
+.design-part .design-con h2{
+	color: #2d3950;
+	font-size: 40px;
+	font-weight: 400;
+	padding: 80px 0px 23px;
+}
+.design-part .design-con p{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #999999;
+	padding-bottom: 110px; 
+}
+	/*design part end*/
+.feature-part{
+	padding: 65px 0px;
+}
+.feature-part .part1 h4{
+	font-size: 22px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #2d3950;
+	padding: 30px 0px 18px;  
+}	
+.feature-part .part1 p{
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #a1a1a1; 
+}
+/*feature-part end*/
+.portfolio{
+	background: #f6f9f9;
+}
+.portfolio .content{
+	padding: 80px 0px;
+}
+.portfolio .content h4{
+	font-style: 41px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #2d3950;
+}
+.portfolio .content p{
+	color: #909090;
+	padding-top: 16px;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+.portfolio .part1{
+	padding-bottom: 30px;
+}
+.portfolio .part2{
+	padding-bottom: 116px;
+}
+/*portfolio end*/
+.stay-part{
+	background: url(../image/bg.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding-top:75px;
+}
+.stay-part h4{
+	font-weight: 400;
+	font-size: 41px;
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+}
+.stay-part p{
+	color: #999999;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+.form{
+	/*padding-left: 25%; */
+	padding-bottom: 109px;
+
+}
+.form .form-group .form-control{
+	background: none;
+	border: 1px solid #999999;
+	height: 61px;
+	width: 555px; 
+}
+.form .form-group2 .form-control{
+	background: none;
+	border: 1px solid #999999;
+	height: 162px;
+	width: 555px;
+}
+.form  .form-check .form-check-label{
+	text-align: left;
+}
+.form .btn{
+	float: right;
+	margin-right: 25%;
+	/*padding-left: 10px;*/
+	border: 1px solid #15a4fa;
+	padding: 12px 46px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	margin-top: -40px;
+}
+.form .form-check {
+	margin-top: 38px;
+	margin-left: 25%;
+	
+}
+.form .form-check .form-check-label{
+	color: #ffffff;
+	
+}
+/*stay part end*/
+.footer-part {
+	background: #f6f9f9;
+	padding: 24px 0px;
+}
+.footer-part p{
+	color: #999999;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+
+.footer-part  .icon1{
+	padding-left: 5px;
+	color: #15a4fa;
+	font-size: 26px;
+	border-radius: 0px;
+}
+.footer-part  .icon1{
+	padding-left: 5px;
+	color: #15a4fa;
+	font-size: 28px;
+	border-radius: 0px;
+}
